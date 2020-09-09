@@ -4,15 +4,15 @@
 
 After completing this assignment, you should:
 
-* Have a more solid understanding of the DOM and general JavaScript syntax
+- Have a more solid understanding of the DOM and general JavaScript syntax
 
 ## Homework
 
 ### Normal Mode
 
 - Create a JavaScript clock you see in `basic.gif` below.
-  * Note it does not need to be the same font, just look similar. 
-  * Have fun with the design.
+  - Note it does not need to be the same font, just look similar.
+  - Have fun with the design.
 
 ![](https://raw.githubusercontent.com/tiy-lv-frontend-2016-02/js-clock/master/images/basic.gif)
 
@@ -23,7 +23,6 @@ After completing this assignment, you should:
 1. Push to Github
 2. Push to Github Pages
 3. Comment on the issue assigned to you and close the issue
-
 
 ## Hard Mode
 
