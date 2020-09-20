@@ -3,21 +3,28 @@ const colorTime = setInterval(() => {
   let seconds = TI.getSeconds()
   let minutes = TI.getMinutes()
   let hours = TI.getHours()
-  if (hours > 12) {
-    hours = hours() - 12
-  } else {
-    hours = hours
+
+  function pad(i) {
+    if (i < 10) {
+      return "0" + i
+    } else {
+      return i
+    }
   }
-  ;(hours) => (hours = 0 ? "0" + hours : hours)
-  ;(minutes) => (minutes = 0 ? minutes : "0" + minutes)
-  ;(seconds) => (seconds = 0 ? seconds : "0" + seconds)
+  if (hours > 12) {
+    hours = hours - 12
+  }
+  hours = pad(hours)
+  minutes = pad(minutes)
+  seconds = pad(seconds)
+
+  console.log(seconds, pad(seconds))
+  // if (seconds < 10) {
+
   let showTime = hours + ":" + minutes + ":" + seconds
+  let cTimeColor = "#" + hours + minutes + seconds
+  document.body.style.backgroundColor = cTimeColor
   // let colors = "#count".color[i]
+  document.querySelector("#color").innerHTML = cTimeColor
   document.querySelector("#count").innerHTML = showTime
 }, 1000)
-
-const change = setTimeout(() => {
-  if (colorTime) {
-  }
-  // let colors = "#count".color
-}, 2000)

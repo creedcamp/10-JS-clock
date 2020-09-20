@@ -1,27 +1,24 @@
 body {
-  width: 100%;
-  height: 700px;
-  margin: 0px;
+  /* width: 100%;
+  height: 700px; */
+  margin: 8%;
   align-items: center;
+  display: flex;
+  flex-flow: column;
+  font-family: cursive;
+  justify-content: center;
 }
-
+/* 
 .container {
   width: 100%;
   height: 100%;
   margin: 0px;
   display: flex;
   flex-wrap: nowrap;
-}
+} */
 
 p {
-  width: 100%;
-  height: 100%;
   justify-self: center;
-  font-size: 900%;
-}
-
-.color {
-  background-color: #1c493e, #b105a2, #13b9036b;
-  width: 100%;
-  margin: 0px auto;
+  font-size: 100px;
+  color: white;
 }
